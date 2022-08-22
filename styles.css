@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.calculator{
+    display: flex;
+    gap: 3px;
+    flex-direction: row;
+    width: 200px;
+    height: 300px;
+
+}
+
+.flex-grid{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.numButton{
+    flex: auto;
+    margin: 2px;
+}
+
+.enter{
+    flex: 2;
+}
+.display{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    background-color: orange;
+    font-family: 'Orbitron';
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+    margin: 5px;
+}
+
